@@ -1,8 +1,9 @@
-body {color: #757575;}
+body {color: #757575; font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;} 
 /*  header */
 .header-nav {color: #212121;}
-.header-logo {color: #000000;}
-.header-logo>.logo-piece {color: #2196F3;}
+.header-logo {color: #2196F3;}
+.header-logo>.logo-header-piece {color: #000000;}
 .nav-items , .cantacts-mail , .contacts-tel {color: inherit;}
 .nav-items:hover , .cantacts-mail:hover , .contacts-tel:hover {color: #2196F3;}
 .nav-items:focus , .cantacts-mail:focus , .contacts-tel:focus { color: #2196F3;}
@@ -11,3 +12,14 @@ body {color: #757575;}
 .hero {background-color:#2F303A;}
 .hero-title {color: #FFFFFF;}
 .hero-btn {background-color: #2196F3; color: #FFFFFF;}
+/* як ми працюємо */
+.hiden {visibility: hidden}
+ul { list-style: none; }
+.descr-item {text-transform: uppercase; color:#212121 ;}
+.team {background-color: #F5F4FA;;}
+.title, .team-member {color: #212121;}
+/* footer */
+.logo-footer-piece {color: #FFFFFF;}
+ .address-map {color:#FFFFFF;}
+ .footer {background-color: #2F303A;}
+.address-mail , .address-tel {color: #FFFFFF99;}
