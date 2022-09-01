@@ -1,0 +1,9 @@
+body {color: #757575;}
+/*  header */
+.header-nav {color: #212121;}
+.header-logo {color: #000000;}
+.header-logo>.logo-piece {color: #2196F3;}
+.nav-items {color: inherit;}
+.cantacts-mail , .contacts-tel {color: inherit;}
+.nav-items:hover , .cantacts-mail:hover , .contacts-tel:hover {color: #2196F3;}
+.nav-items:focus , .cantacts-mail:focus , .contacts-tel:focus { color: #2196F3;}
