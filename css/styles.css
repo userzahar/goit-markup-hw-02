@@ -23,3 +23,12 @@ ul { list-style: none; }
  .address-map {color:#FFFFFF;}
  .footer {background-color: #2F303A;}
 .address-mail , .address-tel {color: #FFFFFF99;}
+.address-map:hover , .address-mail:hover , .address-tel:hover {color: #2196F3;}
+.address-map:focus , .address-mail:focus , .address-tel:focus {color: #2196F3;}
+/* портфоліо */
+/* фільтри */
+.filter-btn {background-color: #F5F4FA; color: #212121;}
+.filter-btn:hover {background-color: #2196F3; color: #FFFFFF;}
+.filter-btn:focus {background-color: #2196F3; color: #FFFFFF;}
+/* проєкти */
+.project-title { color:#212121; }
