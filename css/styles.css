@@ -1,4 +1,4 @@
-:root {--basic-text-color: #757575;
+:root {--primary-text-color: #757575;
 --accent-color: #2196F3;
 --contrast-color:#212121 ;
 --separation-color:#F5F4FA;
@@ -6,10 +6,11 @@
 --pure-black-color:#000000;
 --pure-white-color:#ffffff;
 --transparent-white:#FFFFFF99; } 
-body {color: var(--basic-text-color); 
+body {color: var(--primary-text-color); 
     font-family: 'Roboto', sans-serif;} 
     .list { list-style: none;}
     .link {text-decoration: none;}
+    .hiden {visibility: hidden;}
 /*  header */
 .header-nav {color:var(--contrast-color);}
 .logo {color: var(--accent-color); font-weight: 700;
@@ -30,7 +31,7 @@ body {color: var(--basic-text-color);
     font-size: 16px;
     line-height: 1.9; text-align: center; letter-spacing: 0.06em; cursor: pointer; font-family: inherit;}
 /* секція як ми працюємо */
-.hiden {visibility: hidden;}
+
 
 .descr-item {text-transform: uppercase; color:var(--contrast-color) ; font-weight: 700; font-size: 14px;
     line-height: 1.2; letter-spacing: 0.03em;}
