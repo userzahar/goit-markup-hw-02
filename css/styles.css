@@ -5,10 +5,10 @@ body {color: var(--basic-text-color);
 .header-nav {color:var(--contrast-color)}
 .logo {color: var(--accent-color); font-weight: 700;
     font-size: 26px;
-    line-height: 31px; font-family:'Raleway', sans-serif;}
+    line-height: 1.2; font-family:'Raleway', sans-serif;}
 .logo-header {color: var(--pure-black-color);}
 .nav-items , .cantacts-mail , .contacts-tel {color: inherit; font-weight: 500; font-size: 14px;
-    line-height: 16px;}
+    line-height: 1.2;}
 .nav-items:hover , .cantacts-mail:hover , .contacts-tel:hover {color:var(--accent-color);}
 .nav-items:focus , .cantacts-mail:focus , .contacts-tel:focus { color:var(--accent-color);}
 /* main головної сторінки */
@@ -16,27 +16,27 @@ body {color: var(--basic-text-color);
 .hero {background-color:var(--background-color);}
 .hero-title {color:var(--pure-white-color); font-weight: 900;
     font-size: 44px;
-    line-height: 60px; text-transform: uppercase;}
+    line-height: 1.4; text-transform: uppercase;}
 .hero-btn {background-color: var(--accent-color); color: var(--pure-white-color); font-weight: 700;
     font-size: 16px;
-    line-height: 30px; cursor: pointer; font-family: inherit;}
+    line-height: 1.9; cursor: pointer; font-family: inherit;}
 /* секція як ми працюємо */
 .hiden {visibility: hidden}
  .list { list-style: none;}
 .descr-item {text-transform: uppercase; color:var(--contrast-color) ; font-weight: 700; font-size: 14px;
-    line-height: 16px;}
-.item-text {line-height: 24px; font-size: 14px;}
+    line-height: 1.2;}
+.item-text {font-size: 14px; line-height: 1.7; }
 /* секція наша команда */
 .team  {background-color: var(--separation-color);}
 .member-profession {
     font-size: 16px;
-    line-height: 19px;}
+    line-height: 1.2;}
 .team-member {font-weight: 500;
     font-size: 16px;
-    line-height: 19px;}
+    line-height: 1.2;}
 .title {font-weight: 700;
     font-size: 36px;
-    line-height: 42px;} 
+    line-height: 1.2;} 
 .title, .team-member {color: var(--contrast-color);}
 /* footer */
 .logo-footer {color: var(--pure-white-color);}
@@ -49,13 +49,13 @@ body {color: var(--basic-text-color);
 /* фільтри */
 .filter-btn {background-color: var(--separation-color); color: var(--contrast-color); font-weight: 500;
     font-size: 16px;
-    line-height: 26px; cursor: pointer; font-family: inherit;}
+    line-height: 1.6; cursor: pointer; font-family: inherit;}
 .filter-btn:hover {background-color: var(--accent-color); color: var(--pure-white-color);}
 .filter-btn:focus {background-color: var(--accent-color); color: var(--pure-white-color);}
 /* проєкти */
 .project-title { color:var(--contrast-color); font-weight: 700;
     font-size: 18px;
-    line-height: 36px;}
+    line-height: 2;}
 .title-descr {
     font-size: 16px;
-    line-height: 30px;}
+    line-height: 1.9;}
