@@ -13,40 +13,64 @@ body {color: var(--primary-text-color);
     .hiden {visibility: hidden;}
 /*  header */
 .header-nav {color:var(--contrast-color);}
-.logo {color: var(--accent-color); font-weight: 700;
+.logo {color: var(--accent-color); 
+    font-weight: 700;
     font-size: 26px;
-    line-height: 1.2; letter-spacing: 0.03em; font-family:'Raleway', sans-serif;}
+    line-height: 1.2; 
+    letter-spacing: 0.03em; 
+    font-family:'Raleway', sans-serif;}
 .logo-header {color: var(--pure-black-color);}
-.nav-items , .cantacts-mail , .contacts-tel {color: inherit; font-weight: 500; font-size: 14px;
-    line-height: 1.2; letter-spacing: 0.02em;}
+.nav-items , .cantacts-mail , .contacts-tel {color: inherit; 
+    font-weight: 500; 
+    font-size: 14px;
+    line-height: 1.2; 
+    letter-spacing: 0.02em;}
 .nav-items:hover , .cantacts-mail:hover , .contacts-tel:hover {color:var(--accent-color);}
 .nav-items:focus , .cantacts-mail:focus , .contacts-tel:focus { color:var(--accent-color);}
 /* main головної сторінки */
 /* hero */
 .hero {background-color:var(--background-color);}
-.hero-title {color:var(--pure-white-color); font-weight: 900;
+.hero-title {color:var(--pure-white-color); 
+    font-weight: 900;
     font-size: 44px;
-    line-height: 1.4; text-align: center; letter-spacing: 0.06em; text-transform: uppercase;}
-.hero-btn {background-color: var(--accent-color); color: var(--pure-white-color); font-weight: 700;
+    line-height: 1.4; 
+    text-align: center; 
+    letter-spacing: 0.06em; 
+    text-transform: uppercase;}
+.hero-btn {background-color: var(--accent-color);
+    color: var(--pure-white-color); 
+    font-weight: 700;
     font-size: 16px;
-    line-height: 1.9; text-align: center; letter-spacing: 0.06em; cursor: pointer; font-family: inherit;}
+    line-height: 1.9; 
+    text-align: center; 
+    letter-spacing: 0.06em; 
+    cursor: pointer; 
+    font-family: inherit;}
 /* секція як ми працюємо */
 
 
-.descr-item {text-transform: uppercase; color:var(--contrast-color) ; font-weight: 700; font-size: 14px;
-    line-height: 1.2; letter-spacing: 0.03em;}
-.item-text {font-size: 14px; line-height: 1.7; letter-spacing: 0.03em;}
+.descr-item {text-transform: uppercase; 
+    color:var(--contrast-color) ; 
+    font-weight: 700; font-size: 14px;
+    line-height: 1.2; 
+    letter-spacing: 0.03em;}
+.item-text {font-size: 14px; 
+    line-height: 1.7;
+     letter-spacing: 0.03em;}
 /* секція наша команда */
 .team  {background-color: var(--separation-color);}
-.member-profession {
-    font-size: 16px;
-    line-height: 1.2; letter-spacing: 0.03em;}
+.member-profession {font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;}
 .team-member {font-weight: 500;
     font-size: 16px;
-    line-height: 1.2; letter-spacing: 0.03em;}
+    line-height: 1.2; 
+    letter-spacing: 0.03em;}
 .title {font-weight: 700;
     font-size: 36px;
-    line-height: 1.2; letter-spacing: 0.03em; text-align: center;} 
+    line-height: 1.2; 
+    letter-spacing: 0.03em; 
+    text-align: center;} 
 .title, .team-member {color: var(--contrast-color);}
 /* footer */
 .logo-footer {color: var(--pure-white-color);}
@@ -62,15 +86,22 @@ body {color: var(--primary-text-color);
 .address-map:focus , .address-mail:focus , .address-tel:focus {color: var(--accent-color);}
 /* портфоліо */
 /* фільтри */
-.filter-btn {background-color: var(--separation-color); color: var(--contrast-color); font-weight: 500;
+.filter-btn {background-color: var(--separation-color);
+    color: var(--contrast-color);
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.6; letter-spacing: 0.03em; cursor: pointer; font-family: inherit;}
-.filter-btn:hover {background-color: var(--accent-color); color: var(--pure-white-color);}
-.filter-btn:focus {background-color: var(--accent-color); color: var(--pure-white-color);}
+.filter-btn:hover {background-color: var(--accent-color); 
+    color: var(--pure-white-color);}
+.filter-btn:focus {background-color: var(--accent-color); 
+    color: var(--pure-white-color);}
 /* проєкти */
-.project-title { color:var(--contrast-color); font-weight: 700;
+.project-title { color:var(--contrast-color); 
+    font-weight: 700;
     font-size: 18px;
-    line-height: 2; letter-spacing: 0.06em;}
+    line-height: 2; 
+    letter-spacing: 0.06em;}
 .title-descr {
     font-size: 16px;
-    line-height: 1.9; letter-spacing: 0.06em;}
+    line-height: 1.9; 
+    letter-spacing: 0.06em;}
