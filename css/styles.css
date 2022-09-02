@@ -1,11 +1,11 @@
 :root {--basic-text-color: #757575; --accent-color: #2196F3; --contrast-color:#212121 ; --separation-color:#F5F4FA; --background-color:#2F303A; --pure-black-color:#000000; --pure-white-color:#ffffff; --transparent-white:#FFFFFF99; } 
 body {color: var(--basic-text-color); 
-    font-family: 'Roboto', sans-serif, 'Raleway', sans-serif;} 
+    font-family: 'Roboto', sans-serif,} 
 /*  header */
 .header-nav {color:var(--contrast-color)}
 .logo {color: var(--accent-color); font-weight: 700;
     font-size: 26px;
-    line-height: 31px;}
+    line-height: 31px; font-family:'Raleway', sans-serif;}
 .logo-header {color: var(--pure-black-color);}
 .nav-items , .cantacts-mail , .contacts-tel {color: inherit; font-weight: 500; font-size: 14px;
     line-height: 16px;}
