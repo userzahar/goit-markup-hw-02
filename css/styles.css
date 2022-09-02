@@ -22,7 +22,7 @@ body {color: var(--basic-text-color);
     line-height: 30px; cursor: pointer;}
 /* секція як ми працюємо */
 .hiden {visibility: hidden}
- .list { list-style: none; }
+ .list { list-style: none;}
 .descr-item {text-transform: uppercase; color:var(--contrast-color) ; font-weight: 700; font-size: 14px;
     line-height: 16px;}
 .item-text {line-height: 24px; font-size: 14px;}
