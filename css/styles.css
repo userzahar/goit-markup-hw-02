@@ -1,6 +1,6 @@
 :root {--basic-text-color: #757575; --accent-color: #2196F3; --contrast-color:#212121 ; --separation-color:#F5F4FA; --background-color:#2F303A; --pure-black-color:#000000; --pure-white-color:#ffffff; --transparent-white:#FFFFFF99; } 
 body {color: var(--basic-text-color); 
-    font-family: 'Roboto', sans-serif,} 
+    font-family: 'Roboto', sans-serif;} 
 /*  header */
 .header-nav {color:var(--contrast-color)}
 .logo {color: var(--accent-color); font-weight: 700;
@@ -22,7 +22,7 @@ body {color: var(--basic-text-color);
     line-height: 30px; cursor: pointer;}
 /* секція як ми працюємо */
 .hiden {visibility: hidden}
-ul { list-style: none; }
+ .list { list-style: none; }
 .descr-item {text-transform: uppercase; color:var(--contrast-color) ; font-weight: 700; font-size: 14px;
     line-height: 16px;}
 .item-text {line-height: 24px; font-size: 14px;}
