@@ -6,38 +6,49 @@
 --pure-black-color:#000000;
 --pure-white-color:#ffffff;
 --transparent-white:#FFFFFF99; } 
-body {color: var(--primary-text-color); 
+body {
+    color: var(--primary-text-color); 
     font-family: 'Roboto', sans-serif;} 
     .list { list-style: none;}
     .link {text-decoration: none;}
     .hiden {visibility: hidden;}
 /*  header */
 .header-nav {color:var(--contrast-color);}
-.logo {color: var(--accent-color); 
+.logo {
+    color: var(--accent-color); 
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2; 
     letter-spacing: 0.03em; 
     font-family:'Raleway', sans-serif;}
 .logo-header {color: var(--pure-black-color);}
-.nav-items , .cantacts-mail , .contacts-tel {color: inherit; 
+.nav-items, 
+.cantacts-mail, 
+.contacts-tel {
+    color: inherit; 
     font-weight: 500; 
     font-size: 14px;
     line-height: 1.2; 
     letter-spacing: 0.02em;}
-.nav-items:hover , .cantacts-mail:hover , .contacts-tel:hover {color:var(--accent-color);}
-.nav-items:focus , .cantacts-mail:focus , .contacts-tel:focus { color:var(--accent-color);}
+.nav-items:hover, 
+.cantacts-mail:hover, 
+.contacts-tel:hover {color:var(--accent-color);}
+.nav-items:focus, 
+.cantacts-mail:focus, 
+.contacts-tel:focus { color:var(--accent-color);}
 /* main головної сторінки */
 /* hero */
 .hero {background-color:var(--background-color);}
-.hero-title {color:var(--pure-white-color); 
+.hero-title {
+    color:var(--pure-white-color); 
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4; 
     text-align: center; 
     letter-spacing: 0.06em; 
     text-transform: uppercase;}
-.hero-btn {background-color: var(--accent-color);
+.hero-btn {
+    background-color: var(--accent-color);
     color: var(--pure-white-color); 
     font-weight: 700;
     font-size: 16px;
@@ -49,54 +60,70 @@ body {color: var(--primary-text-color);
 /* секція як ми працюємо */
 
 
-.descr-item {text-transform: uppercase; 
+.descr-item {
+    text-transform: uppercase; 
     color:var(--contrast-color) ; 
     font-weight: 700; font-size: 14px;
     line-height: 1.2; 
     letter-spacing: 0.03em;}
-.item-text {font-size: 14px; 
+.item-text {
+    font-size: 14px; 
     line-height: 1.7;
      letter-spacing: 0.03em;}
 /* секція наша команда */
 .team  {background-color: var(--separation-color);}
-.member-profession {font-size: 16px;
+.member-profession {
+    font-size: 16px;
     line-height: 1.2;
     letter-spacing: 0.03em;}
-.team-member {font-weight: 500;
+.team-member {
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.2; 
     letter-spacing: 0.03em;}
-.title {font-weight: 700;
+.title {
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.2; 
     letter-spacing: 0.03em; 
     text-align: center;} 
-.title, .team-member {color: var(--contrast-color);}
+.title, 
+.team-member {color: var(--contrast-color);}
 /* footer */
 .logo-footer {color: var(--pure-white-color);}
- .address-map {color:var(--pure-white-color);
+ .address-map {
+    color:var(--pure-white-color);
     font-size: 14px;
     line-height: 1.7;}
  .footer {background-color: var(--background-color);}
-.address-mail , .address-tel {color: var(--transparent-white);
+.address-mail, 
+.address-tel {
+    color: var(--transparent-white);
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;}
-.address-map:hover , .address-mail:hover , .address-tel:hover {color: var(--accent-color);}
-.address-map:focus , .address-mail:focus , .address-tel:focus {color: var(--accent-color);}
+.address-map:hover, 
+.address-mail:hover, 
+.address-tel:hover {color: var(--accent-color);}
+.address-map:focus, 
+.address-mail:focus, 
+.address-tel:focus {color: var(--accent-color);}
 /* портфоліо */
 /* фільтри */
-.filter-btn {background-color: var(--separation-color);
+.filter-btn {
+    background-color: var(--separation-color);
     color: var(--contrast-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6; letter-spacing: 0.03em; cursor: pointer; font-family: inherit;}
-.filter-btn:hover {background-color: var(--accent-color); 
+.filter-btn:hover {
+    background-color: var(--accent-color); 
     color: var(--pure-white-color);}
 .filter-btn:focus {background-color: var(--accent-color); 
     color: var(--pure-white-color);}
 /* проєкти */
-.project-title { color:var(--contrast-color); 
+.project-title { 
+    color:var(--contrast-color); 
     font-weight: 700;
     font-size: 18px;
     line-height: 2; 
